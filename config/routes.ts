@@ -1,4 +1,11 @@
-﻿export default [
+﻿	export default [
+	{
+	path: '/products',
+	name: 'Sản phẩm',
+	icon: 'AppstoreOutlined',
+	component: '@/pages/Products',
+	},
+
 	{
 		path: '/user',
 		layout: false,
