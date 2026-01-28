@@ -1,4 +1,15 @@
 ﻿export default [
+{
+  path: '/products',
+  name: 'Sản phẩm',
+  component: './Products',
+},
+{
+  path: '/orders',
+  name: 'Đơn hàng',
+  component: './Orders',
+},
+
 	{
 		path: '/user',
 		layout: false,
