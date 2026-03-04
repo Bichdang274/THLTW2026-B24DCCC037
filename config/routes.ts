@@ -1,5 +1,14 @@
 ﻿export default [
 	{
+	path: '/TH01_Bai1',
+	component: '@/pages/TH01_Bai1',
+	},
+	{
+	path: '/TH01_Bai2',
+	component: '@/pages/TH01_Bai2',
+	},
+	
+	{
 		path: '/user',
 		layout: false,
 		routes: [
