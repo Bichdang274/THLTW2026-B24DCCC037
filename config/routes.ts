@@ -42,6 +42,21 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	  // thêm bài 1
+  {
+    path: '/game',
+    name: 'Oẳn Tù Tì',
+    icon: 'smile',
+    component: './game',
+  },
+
+  // thêm bài 2
+  {
+    path: '/question-bank',
+    name: 'Ngân hàng câu hỏi',
+    icon: 'book',
+    component: './question-bank',
+  },
 
 	// DANH MUC HE THONG
 	// {
