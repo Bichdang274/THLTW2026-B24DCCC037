@@ -52,6 +52,9 @@
     "not ie <= 10"
   ],
   "dependencies": {
+    "@ant-design/pro-components": "^2.6.0",
+    "@umijs/max": "^4.0.0",
+    "dayjs": "^1.11.10",
     "@ant-design/icons": "~4.5.0",
     "@ant-design/pro-layout": "~6.15.3",
     "@monaco-editor/react": "^4.6.0",

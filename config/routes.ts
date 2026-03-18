@@ -43,6 +43,12 @@
 		component: './TodoList',
 	},
 
+{ path: '/', redirect: '/dashboard' },
+    { path: '/dashboard', component: './Dashboard', name: 'Thống kê', icon: 'PieChartOutlined' },
+    { path: '/staff', component: './Staff', name: 'Nhân viên', icon: 'UserOutlined' },
+    { path: '/service', component: './Service', name: 'Dịch vụ', icon: 'AppstoreOutlined' },
+    { path: '/booking', component: './Booking', name: 'Lịch hẹn', icon: 'CalendarOutlined' },
+    { path: '/review', component: './Review', name: 'Đánh giá', icon: 'StarOutlined' },
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
