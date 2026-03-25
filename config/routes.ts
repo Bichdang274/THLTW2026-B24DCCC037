@@ -42,6 +42,25 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+  path: '/vanbang',
+  name: 'Quản lý văn bằng',
+  icon: 'BookOutlined',
+  component: '@/pages/vanbang/index',
+},
+
+  {
+    path: '/quyetdinh',
+    name: 'Quyết định',
+    component: '@/pages/quyetdinh/index',
+  },
+    {
+        path: '/fields',
+        name: 'Phụ lục',
+        component: '@/pages/fields/index',
+    },
+	{ path: '/ttvanbang', name: 'Văn bằng', component: '@/pages/ttvanbang/index' },
+	{ path: '/tracuu', name: 'Tra cứu', component: '@/pages/tracuu/index' },
 
 	// DANH MUC HE THONG
 	// {
