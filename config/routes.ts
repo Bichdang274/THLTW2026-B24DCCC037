@@ -42,6 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+    {
+  path: '/club',
+  name: 'Club',
+  icon: 'TeamOutlined',
+  component: './club/index',
+    },
 
 	// DANH MUC HE THONG
 	// {
