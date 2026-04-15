@@ -42,7 +42,25 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-
+{ path: '/', redirect: '/classrooms' },
+    { 
+        path: '/classrooms', 
+        name: 'Phòng Học',            
+        icon: 'BankOutlined',       
+        component: '@/pages/Classroom/List' 
+    },
+    { 
+        path: '/classrooms/add', 
+        name: 'Thêm phòng học', 
+        component: '@/pages/Classroom/Form',
+        hideInMenu: true              
+    },
+    { 
+        path: '/classrooms/edit/:id', 
+        name: 'Sửa phòng học', 
+        component: '@/pages/Classroom/Form',
+        hideInMenu: true             
+    },
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
