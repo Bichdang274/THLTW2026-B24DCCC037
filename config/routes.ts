@@ -42,6 +42,11 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{ path: '/', redirect: '/dashboard' },
+    { path: '/workout', name: 'Nhật ký tập luyện', icon: 'fire', component: '@/pages/WorkoutLog' },
+    { path: '/health', name: 'Chỉ số sức khỏe', icon: 'heart', component: '@/pages/HealthMetrics' },
+    { path: '/goals', name: 'Quản lý mục tiêu', icon: 'aim', component: '@/pages/Goals' },
+    { path: '/exercises', name: 'Thư viện bài tập', icon: 'book', component: '@/pages/ExerciseLibrary' },
 
 	// DANH MUC HE THONG
 	// {
