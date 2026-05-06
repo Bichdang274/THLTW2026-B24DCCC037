@@ -42,6 +42,29 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+
+	{
+    path: '/',
+    redirect: '/dashboard',
+  },
+  {
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: './dashboard',
+    icon: 'HomeOutlined',
+  },
+  {
+    path: '/kanban',
+    name: 'Kanban Board',
+    component: './kanban',
+    icon: 'ProjectOutlined',
+  },
+  {
+    path: '/list',
+    name: 'Danh sách Task',
+    component: './list',
+    icon: 'UnorderedListOutlined',
+  },
 { path: '/', redirect: '/classrooms' },
     { 
         path: '/classrooms', 
